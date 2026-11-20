@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hebert Gabriel — Estrategista de Marketing</title>
+<meta name="description" content="Hebert Gabriel: estrategista de marketing, formado em Administração com ênfase em Branding. Posicionamento, conteúdo, live marketing e ativação de marca.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#inicio" aria-label="Hebert Gabriel — início"><span class="brand-mark" aria-hidden="true"></span>Hebert Gabriel</a>
+  <nav id="menu" class="menu" aria-label="Principal">
+    <a href="#inicio">Início</a>
+    <a href="#quem-sou">Quem sou</a>
+    <a href="#especialidades">Especialidades</a>
+    <a href="#cases">Cases &amp; Marcas</a>
+    <a href="#ativacao">Ativação</a>
+    <a href="#contato" class="btn btn-sm btn-primary menu-cta">Posicionar minha marca</a>
+  </nav>
+  <button class="burger" id="burger" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span></span><span></span></button>
+</header>
+
+<main id="conteudo">
+<!-- HERO -->
+<section class="hero" id="inicio" aria-label="Showreel">
+  <div class="reel" id="reel" aria-hidden="true">
+    <video class="reel-v is-on" muted playsinline preload="auto"></video>
+    <video class="reel-v" muted playsinline preload="none"></video>
+  </div>
+  <div class="hero-shade"></div>
+  <div class="hero-inner">
+    <p class="eyebrow">Estrategista de Marketing · Branding</p>
+    <h1>Pois a sua empresa precisa ser <em>posicionada.</em></h1>
+    <p class="lead">O mundo digital precisa de estratégia — e estou aqui para fazer acontecer.</p>
+    <div class="cta-row">
+      <a href="#cases" class="btn btn-primary">Ver cases e vídeos</a>
+      <a href="#contato" class="btn btn-ghost">Posicionar minha marca</a>
+    </div>
+  </div>
+  <div class="reel-ctrl" role="group" aria-label="Seletor de showreel">
+    <button class="icon-btn" id="reelPause" aria-label="Pausar showreel" aria-pressed="false">❚❚</button>
+    <div class="reel-dots" id="reelDots"></div>
+    <span class="reel-count" id="reelCount" aria-live="polite">01 / 01</span>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee" aria-label="Marcas atendidas"><div class="marquee-t">
+  <span>Toyota</span><span>Lexus</span><span>Itaú</span><span>Danone</span><span>Volkswagen</span><span>Anhanguera</span><span>CAO Chery</span><span>Delicatessen Santana</span>
+  <span aria-hidden="true">Toyota</span><span aria-hidden="true">Lexus</span><span aria-hidden="true">Itaú</span><span aria-hidden="true">Danone</span><span aria-hidden="true">Volkswagen</span><span aria-hidden="true">Anhanguera</span><span aria-hidden="true">CAO Chery</span><span aria-hidden="true">Delicatessen Santana</span>
+</div></div>
+
+<!-- QUEM SOU -->
+<section class="sec about" id="quem-sou">
+  <div class="about-media reveal">
+    <div class="cube" aria-hidden="true"><i></i><i></i><i></i></div>
+    <img src="IMG_5176.JPG.jpeg" alt="Retrato de Hebert Gabriel, de terno azul, mãos entrelaçadas" loading="lazy" width="800" height="1200">
+    <img class="about-bw" src="IMG_4469.JPG.jpeg" alt="Retrato em preto e branco de Hebert Gabriel" loading="lazy" width="400" height="600">
+  </div>
+  <div class="about-txt reveal">
+    <p class="eyebrow">Quem sou eu?</p>
+    <h2>Posicionamento real para marcas que querem ser lembradas.</h2>
+    <p>Sou profissional de marketing, formado em <strong>Administração com ênfase em Branding</strong>. Minha atuação reúne branding, produção de conteúdo estratégico, live marketing e campanhas digitais — sempre ligando marca, produto e comunicação.</p>
+    <p>Trabalhei com Toyota, Lexus, Itaú, Danone e Anhanguera, com histórico de <strong>crescimento orgânico acelerado</strong>, gestão de múltiplos perfis e resultados mensuráveis: funil de conteúdo, KPIs de engajamento e calendário editorial.</p>
+    <ul class="stats">
+      <li><b>13</b><span>frentes de atuação</span></li>
+      <li><b>8+</b><span>marcas atendidas</span></li>
+      <li><b>360°</b><span>estratégia, conteúdo e métricas</span></li>
+    </ul>
+    <a href="#contato" class="btn btn-primary">Vamos conversar</a>
+  </div>
+</section>
+
+<!-- ESPECIALIDADES -->
+<section class="sec" id="especialidades">
+  <div class="sec-head reveal">
+    <p class="eyebrow">O que Hebert Gabriel faz</p>
+    <h2>Estratégia, criação, live e métricas — trabalhando juntas.</h2>
+  </div>
+  <div class="tabs" role="tablist" aria-label="Grupos de especialidades" id="skillTabs">
+    <button role="tab" class="chip is-on" data-g="all" aria-selected="true">Todas</button>
+    <button role="tab" class="chip" data-g="estrategia" aria-selected="false">Estratégia</button>
+    <button role="tab" class="chip" data-g="criacao" aria-selected="false">Criação</button>
+    <button role="tab" class="chip" data-g="live" aria-selected="false">Live &amp; Marca</button>
+    <button role="tab" class="chip" data-g="metricas" aria-selected="false">Métricas &amp; Gestão</button>
+  </div>
+  <ul class="skills" id="skills"></ul>
+</section>
+
+<!-- CASES -->
+<section class="sec" id="cases">
+  <div class="sec-head reveal">
+    <p class="eyebrow">Cases &amp; marcas que confiam</p>
+    <h2>Projetos reais, marcas reais.</h2>
+  </div>
+  <div class="tabs" role="group" aria-label="Filtrar cases" id="caseFilters">
+    <button class="chip is-on" data-f="all" aria-pressed="true">Todos</button>
+    <button class="chip" data-f="auto" aria-pressed="false">Automotivo</button>
+    <button class="chip" data-f="ativacao" aria-pressed="false">Ativação &amp; Eventos</button>
+    <button class="chip" data-f="financeiro" aria-pressed="false">Financeiro &amp; Educação</button>
+    <button class="chip" data-f="varejo" aria-pressed="false">Varejo &amp; Consumo</button>
+  </div>
+  <div class="cases" id="cases-grid"></div>
+</section>
+
+<!-- ATIVAÇÃO -->
+<section class="sec activ" id="ativacao">
+  <div class="activ-txt reveal">
+    <p class="eyebrow">Ativação &amp; Live Marketing</p>
+    <h2>Quando o público <em>sente</em> a marca.</h2>
+    <p>Eventos, ativações presenciais, roteirização e storytelling: a estratégia sai do slide e vira experiência — e a experiência vira conteúdo.</p>
+    <ul class="ticks">
+      <li><b>Toyota na Bon Odori</b> — presença de marca em um dos maiores festivais culturais.</li>
+      <li><b>Danone na Super Bahia 2025</b> — ativação em evento.</li>
+      <li><b>Experiência de ser Lexus</b> — conteúdo premium e performance orgânica.</li>
+    </ul>
+  </div>
+  <figure class="activ-vid reveal">
+    <video id="activVid" muted loop playsinline controls preload="none" aria-label="Vídeo de ativação de marca"></video>
+    <figcaption>Ativação de marca</figcaption>
+  </figure>
+</section>
+
+<!-- CONTATO -->
+<section class="sec contact" id="contato">
+  <div class="cube cube-lg" aria-hidden="true"><i></i><i></i><i></i></div>
+  <div class="contact-in reveal">
+    <p class="eyebrow">Contato estratégico</p>
+    <h2>Sua marca precisa ser posicionada. Vamos começar?</h2>
+    <form id="form" novalidate>
+      <label>Seu nome<input name="nome" required autocomplete="name"></label>
+      <label>Empresa / marca<input name="empresa" autocomplete="organization"></label>
+      <label>E-mail<input name="email" type="email" required autocomplete="email"></label>
+      <label class="full">Qual é o desafio da sua marca?<textarea name="msg" rows="4" required></textarea></label>
+      <button class="btn btn-primary full" type="submit">Posicionar minha marca</button>
+      <p class="form-note" id="formNote" role="status"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <span>© <span id="yr"></span> Hebert Gabriel — Estrategista de Marketing</span>
+  <a href="#inicio">Voltar ao topo ↑</a>
+</footer>
+
+<a class="wa" id="waBtn" href="#contato" target="_blank" rel="noopener" aria-label="Posicionar sua marca — falar com Hebert Gabriel no WhatsApp">
+  <span class="wa-t">Posicionar sua marca</span>
+  <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true" focusable="false"><path fill="currentColor" d="M16.04 3C9.4 3 4 8.39 4 15.02c0 2.12.55 4.19 1.6 6.01L4 29l8.14-1.56a12 12 0 0 0 3.9.65c6.64 0 12.04-5.39 12.04-12.02S22.68 3 16.04 3zm0 21.9c-1.2 0-2.38-.24-3.48-.7l-.5-.2-4.83.93.95-4.7-.22-.5a9.8 9.8 0 0 1-1.5-5.2c0-5.4 4.4-9.8 9.84-9.8 5.43 0 9.84 4.4 9.84 9.8s-4.41 9.67-9.84 9.67zm5.4-7.35c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.47-.89-.79-1.49-1.76-1.66-2.06-.17-.3-.02-.46.13-.6.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.08-.8.37-.27.3-1.04 1.01-1.04 2.47s1.07 2.87 1.22 3.07c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.23 1.36.2 1.87.12.57-.08 1.75-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35z"/></svg>
+</a>
+
+<!-- MODAL -->
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mTitle" hidden>
+  <div class="modal-box">
+    <button class="icon-btn modal-x" id="mClose" aria-label="Fechar">✕</button>
+    <div class="modal-media" id="mMedia"></div>
+    <div class="modal-body">
+      <p class="eyebrow" id="mTag"></p>
+      <h3 id="mTitle"></h3>
+      <p id="mText"></p>
+      <ul class="pills" id="mTags"></ul>
+    </div>
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
